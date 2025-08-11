@@ -1,0 +1,12 @@
+
+
+#shopify client   server 
+
+ ssh -i "C:\Users\Pearl Organisation\Downloads\cuberoot_uat.pem"  ubuntu@15.207.129
+
+
+
+15.207.0.129
+ubutu
+22
+/home/ubuntu/ordc
