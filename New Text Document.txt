@@ -2,7 +2,7 @@
 
 #shopify client   server 
 
- ssh -i "C:\Users\Pearl Organisation\Downloads\cuberoot_uat.pem"  ubuntu@15.207.129
+ ssh -i "C:\Users\Pearl Organisation\Downloads\cuberoot_uat.pem"  ubuntu@13.126.88.0
 
 
 
@@ -10,3 +10,28 @@
 ubutu
 22
 /home/ubuntu/ordc
+
+
+
+
+
+Hello Sir/Ma'am,
+
+site url: https://app.fulfillzy.com/
+
+when we are using new url and adding a shop so it's connecting successfully.
+
+
+/var/www/shopify/shopify_app-master/
+
+
+
+
+
+sudo npm install -g pm2
+npm run build
+
+pm2 start npm --name "my-app" -- start
+pm2 save
+pm2 startup
+pm2 list
